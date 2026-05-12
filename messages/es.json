@@ -1,0 +1,103 @@
+{
+  "SkipLink": {
+    "toMain": "Saltar al contenido principal"
+  },
+  "ErrorPage": {
+    "title": "Algo salió mal",
+    "body": "No pudimos cargar esta sección. Puedes intentar de nuevo.",
+    "retry": "Reintentar"
+  },
+  "JsonLd": {
+    "knowsAbout": "bienestar animal, apoyo social, coexistencia entre vida humana y animal"
+  },
+  "Metadata": {
+    "title": "FAVHA | Fundación Alianza por la Vida Humana y Animal — Colombia",
+    "description": "Coexistencia en Colombia: bienestar animal y apoyo social. La FAVHA articula programas para personas y animales con un enfoque humano, comunitario y bioregional.",
+    "ogTitle": "FAVHA: alianza entre la vida humana y animal en Colombia",
+    "keywords": "FAVHA, fundación, bienestar animal, apoyo social Colombia, protección animal, salud comunitaria, ONG Colombia, vida humana y animal, alianzas, donaciones"
+  },
+  "SiteHeader": {
+    "brand": "FAVHA",
+    "navMission": "Misión",
+    "navPrograms": "Programas",
+    "navAlliances": "Alianzas",
+    "navCta": "Participar",
+    "navContact": "Contacto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "LocaleSwitcher": {
+    "label": "Idioma",
+    "es": "Español",
+    "en": "English"
+  },
+  "NotFoundPage": {
+    "code": "404",
+    "title": "Página no encontrada",
+    "body": "El enlace puede estar desactualizado o la página ya no existe.",
+    "home": "Volver al inicio"
+  },
+  "Hero": {
+    "fullName": "Fundación Alianza por la Vida Humana y Animal",
+    "acronym": "FAVHA",
+    "tagline": "Confianza, empatía y acción conjunta por quienes comparten el mismo territorio.",
+    "trustLine": "Personas y animales en una sola misión de cuidado y dignidad."
+  },
+  "LandingCarousel": {
+    "heading": "Nuestro trabajo en imágenes",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "goTo": "Ir a la diapositiva"
+  },
+  "MissionVision": {
+    "missionTitle": "Misión",
+    "missionBody": "Promover la coexistencia armónica entre las comunidades humanas y los animales mediante programas de salud, protección, educación y alianzas locales que fortalecen el bienestar compartido.",
+    "visionTitle": "Visión",
+    "visionBody": "Una Colombia en la que la vida humana y animal se reconozcan mutuamente como parte del mismo entramado social y ecológico, con políticas públicas y cultura ciudadana alineadas al cuidado responsable."
+  },
+  "ActionLines": {
+    "sectionTitle": "Líneas de acción",
+    "sectionSubtitle": "Programas diferenciados y complementarios para fortalecer comunidades y animales.",
+    "humansTitle": "Programas para personas",
+    "animalsTitle": "Programas para animales",
+    "human1Title": "Salud y primeros auxilios comunitarios",
+    "human1Body": "Talleres y acompañamiento para fortalecer la seguridad y el autocuidado en barrios y veredas.",
+    "human2Title": "Apoyo psicosocial",
+    "human2Body": "Contención y derivación a redes de salud mental para familias en situación de vulnerabilidad.",
+    "human3Title": "Economía solidaria",
+    "human3Body": "Artesanías, huertas y proyectos de hogar que generan ingresos con respeto al entorno.",
+    "animal1Title": "Esterilización y atención veterinaria",
+    "animal1Body": "Jornadas con aliados veterinarios para control ético de población y bienestar animal.",
+    "animal2Title": "Rescate y hogares temporales",
+    "animal2Body": "Red de hogares de paso y tránsito humano hacia adopción responsable.",
+    "animal3Title": "Educación en tenencia responsable",
+    "animal3Body": "Materiales y conversaciones en escuelas y comunidades para prevenir el abandono.",
+    "animal4Title": "Advocacy y alianzas locales",
+    "animal4Body": "Incidencia ante autoridades y articulación con otros movimientos de protección animal."
+  },
+  "Alliances": {
+    "title": "Alianzas y colaboradores",
+    "body": "Trabajamos con organizaciones, clínicas veterinarias, instituciones educativas y empresas que comparten nuestros valores. Espacio reservado para el logotipo de nuevos aliados."
+  },
+  "AlliancePlaceholder": {
+    "a": "Aliado comunitario",
+    "b": "Red veterinaria",
+    "c": "Institución educativa",
+    "d": "Empresa aliada"
+  },
+  "CtaBand": {
+    "title": "Tu aporte sostiene la alianza",
+    "body": "Con una donación o sumándote como voluntario amplías el impacto en Colombia.",
+    "donate": "Donar",
+    "join": "Unirse a la Alianza"
+  },
+  "Footer": {
+    "contact": "Contacto",
+    "email": "contacto@favha.org",
+    "phone": "+57 (601) 000 0000",
+    "city": "Bogotá, Colombia",
+    "social": "Redes sociales",
+    "rights": "© {year} FAVHA. Todos los derechos reservados.",
+    "jurisdiction": "La Fundación Alianza por la Vida Humana y Animal actúa bajo la legislación de la República de Colombia."
+  }
+}

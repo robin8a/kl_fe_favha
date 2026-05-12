@@ -1,0 +1,103 @@
+{
+  "SkipLink": {
+    "toMain": "Skip to main content"
+  },
+  "ErrorPage": {
+    "title": "Something went wrong",
+    "body": "We could not load this section. You can try again.",
+    "retry": "Try again"
+  },
+  "JsonLd": {
+    "knowsAbout": "animal welfare, social support, coexistence between human and animal life"
+  },
+  "Metadata": {
+    "title": "FAVHA | Foundation for the Alliance of Human and Animal Life — Colombia",
+    "description": "Coexistence in Colombia: animal welfare and social support. FAVHA connects programs for people and animals with a humane, community-driven and bioregional lens.",
+    "ogTitle": "FAVHA: alliance for human and animal life in Colombia",
+    "keywords": "FAVHA, foundation, animal welfare, social support Colombia, animal protection, community health, nonprofit Colombia, human and animal life, alliances, donations"
+  },
+  "SiteHeader": {
+    "brand": "FAVHA",
+    "navMission": "Mission",
+    "navPrograms": "Programs",
+    "navAlliances": "Partnerships",
+    "navCta": "Get involved",
+    "navContact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "LocaleSwitcher": {
+    "label": "Language",
+    "es": "Español",
+    "en": "English"
+  },
+  "NotFoundPage": {
+    "code": "404",
+    "title": "Page not found",
+    "body": "The link may be out of date or the page no longer exists.",
+    "home": "Back to home"
+  },
+  "Hero": {
+    "fullName": "Foundation for the Alliance of Human and Animal Life",
+    "acronym": "FAVHA",
+    "tagline": "Trust, empathy and joint action for everyone who shares the same landscape.",
+    "trustLine": "People and animals in one mission of care and dignity."
+  },
+  "LandingCarousel": {
+    "heading": "Our work in pictures",
+    "prev": "Previous",
+    "next": "Next",
+    "goTo": "Go to slide"
+  },
+  "MissionVision": {
+    "missionTitle": "Mission",
+    "missionBody": "We promote harmonious coexistence between human communities and animals through health, protection, education and local partnerships that strengthen shared wellbeing.",
+    "visionTitle": "Vision",
+    "visionBody": "A Colombia where human and animal life mutually recognise each other as part of the same social and ecological fabric—with public policy and civic culture aligned to responsible care."
+  },
+  "ActionLines": {
+    "sectionTitle": "Lines of action",
+    "sectionSubtitle": "Complementary programmes for communities and animals.",
+    "humansTitle": "Programmes for people",
+    "animalsTitle": "Programmes for animals",
+    "human1Title": "Community health and first aid",
+    "human1Body": "Workshops and outreach to strengthen safety and self-care in neighbourhoods and rural roads.",
+    "human2Title": "Psychosocial support",
+    "human2Body": "Support and referral to mental health networks for families facing vulnerability.",
+    "human3Title": "Solidarity economy",
+    "human3Body": "Crafts, gardens and home-based ventures that generate income with respect for the environment.",
+    "animal1Title": "Sterilisation and veterinary care",
+    "animal1Body": "Campaigns with veterinary partners for ethical population management and animal welfare.",
+    "animal2Title": "Rescue and foster care",
+    "animal2Body": "A foster network and a humane path towards responsible adoption.",
+    "animal3Title": "Responsible guardianship education",
+    "animal3Body": "Resources and conversations in schools and neighbourhoods to prevent abandonment.",
+    "animal4Title": "Advocacy and local alliances",
+    "animal4Body": "Engagement with authorities together with broader animal protection movements."
+  },
+  "Alliances": {
+    "title": "Partners and collaborators",
+    "body": "We work with organisations, veterinary clinics, schools and companies that share our values. Space reserved for partners’ logos."
+  },
+  "AlliancePlaceholder": {
+    "a": "Community partner",
+    "b": "Veterinary network",
+    "c": "Educational institution",
+    "d": "Corporate ally"
+  },
+  "CtaBand": {
+    "title": "Your support sustains the alliance",
+    "body": "With a donation or volunteering, you expand our impact across Colombia.",
+    "donate": "Donate",
+    "join": "Join the alliance"
+  },
+  "Footer": {
+    "contact": "Contact",
+    "email": "contacto@favha.org",
+    "phone": "+57 (601) 000 0000",
+    "city": "Bogotá, Colombia",
+    "social": "Social media",
+    "rights": "© {year} FAVHA. All rights reserved.",
+    "jurisdiction": "The Foundation for the Alliance of Human and Animal Life conducts its activities under the laws of the Republic of Colombia."
+  }
+}
