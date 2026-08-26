@@ -18,6 +18,7 @@
   },
   "SiteHeader": {
     "brand": "FAVHA",
+    "navWhoWeAre": "Who we are",
     "navMission": "Mission",
     "navPrograms": "Programs",
     "navAlliances": "Partnerships",
@@ -42,6 +43,29 @@
     "acronym": "FAVHA",
     "tagline": "Trust, empathy and joint action for everyone who shares the same landscape.",
     "trustLine": "People and animals in one mission of care and dignity."
+  },
+  "WhoWeAre": {
+    "title": "Who we are",
+    "body": "We are a nonprofit foundation that develops, promotes, and carries out social, humanitarian, and solidarity programs aimed at improving the quality of life of people facing economic vulnerability, as well as the protection, care, and wellbeing of animals who are abandoned or at risk."
+  },
+  "OurHistory": {
+    "title": "Our history",
+    "paragraphs": [
+      "My name is Mariana Isabel Zamudio. I was born and raised in Miami, Florida. My parents and my entire maternal and paternal family are originally from Colombia (South America).",
+      "During the 25 years my parents have lived in the United States, and since I was born, we have always visited their country. I still remember clearly the impact it had on me when I first became aware of the conditions in which many people with limited resources live. This situation is a consequence of the lack of education and opportunity, and the saddest part was realizing that, no matter how hard they work every day, their situation does not improve significantly—whether because of social circumstances or government inefficiency. The degree of poverty is such that they cannot even cover their own basic needs or those of their children, so in this context the possibility of education is minimal or almost nonexistent.",
+      "My parents have always instilled in me values such as charity and compassion. They have taught me that we must put ourselves in other people's shoes, especially those of the least privileged—something that at first felt distant to me, because I was born and raised in a privileged life, in a country where things are different, full of opportunities, where you can go very far if you set your mind to it. Seeing this situation, I realized I had to do something to try to help these disadvantaged people. So, with my parents' support, every time we go to Colombia we carry out charity work in the least privileged communities: bringing food and clothing, offering a little help and hope in such a difficult world, so they can feel that someone cares about their lives.",
+      "During the Christmas season we bring toys to the children of these families, and I can say I had never experienced a joy as great as when I first saw the happiness on those children's faces as they received their toy. For them it did not matter how big or expensive it was, because they had learned to value every thing and to be grateful—unlike us, who have been privileged and take everything for granted.",
+      "Recently I also had the opportunity to launch a campaign in several buildings to collect and deliver aid for Venezuela and Colombia after they suffered two high-magnitude earthquakes. Sadly, many people died, and those who survived, in addition to losing family members, were left in a situation of vulnerability, with nothing.",
+      "I was also deeply affected by the suffering of animals because in my parents' country, as in many others, when there are not enough resources for people, animals become an afterthought, or there is simply no education about respect for them—even though they are also living beings who feel and suffer. Some people believe animals belong to them and that they can do whatever they want with them, including abusing them or simply discarding them like trash in the streets, where the suffering of these animals is unimaginable: hunger, cold, and, worst of all, human indifference toward their vulnerability.",
+      "I come from a family where animals matter and deserve respect. My first contact with animals was when we lived near the beach and my mother and I would go out at night to feed the cats and give them water, which helped them greatly after hot days. Later we adopted two cats from the city shelter, and they have become part of our family. What struck me most was the sad statistic that the average lifespan of a cat in a home is 12 to 21 years, and on the street only 5 to 6 years.",
+      "For that reason I am now a volunteer, together with 3 other people, feeding 8 colonies of stray cats in North Miami Beach every week. We have also trapped cats to sterilize them, to prevent uncontrolled reproduction and to break this cycle of suffering in which animals go hungry, get sick, are hit by cars, and in some cases are abused by unscrupulous people who do not care about harming them.",
+      "One very beautiful experience was volunteering to care for 2 newborn kittens who could not feed themselves. City shelters do not have the staff resources to feed them every 3 hours, so they have no option but to euthanize them. This way they can reach the age at which they can be sterilized and put up for adoption—and their lives can be saved. In Colombia we have also helped by taking food to a shelter in Armenia and making donations.",
+      "I know that what I have done so far for people and animals is not very large and does not make a huge difference. But on one hand it has given me unimaginable happiness. I hope that one day my foundation will grow and be able to help more people and animals, changing lives! This world needs more people who care about others, not only about themselves.",
+      "My great goal is to help educate communities not only academically but also socially, because education in every sense is the foundation of progress."
+    ],
+    "quote": "If we all contribute a grain of sand, no matter how small, we can make an enormous difference in the world.",
+    "signOff": "I hope to have your support in the initiatives of my foundation, FAVHA!",
+    "author": "Mariana Isabel Zamudio"
   },
   "LandingCarousel": {
     "heading": "Our work in pictures",

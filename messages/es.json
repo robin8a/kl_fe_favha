@@ -18,6 +18,7 @@
   },
   "SiteHeader": {
     "brand": "FAVHA",
+    "navWhoWeAre": "Quiénes somos",
     "navMission": "Misión",
     "navPrograms": "Programas",
     "navAlliances": "Alianzas",
@@ -42,6 +43,29 @@
     "acronym": "FAVHA",
     "tagline": "Confianza, empatía y acción conjunta por quienes comparten el mismo territorio.",
     "trustLine": "Personas y animales en una sola misión de cuidado y dignidad."
+  },
+  "WhoWeAre": {
+    "title": "¿Quiénes somos?",
+    "body": "Somos una fundación sin ánimo de lucro que busca desarrollar, promover y ejecutar programas de carácter social, humanitario y solidario orientados a mejorar la calidad de vida de personas en situación de vulnerabilidad económica, así como la protección, cuidado y bienestar de animales en condición de abandono o riesgo."
+  },
+  "OurHistory": {
+    "title": "Nuestra historia",
+    "paragraphs": [
+      "Mi nombre es Mariana Isabel Zamudio. Nací y crecí en Miami, Florida. Mis padres y toda mi familia materna y paterna son originarios de Colombia (Suramérica).",
+      "Durante los 25 años que mis padres han vivido en Estados Unidos y después de mi nacimiento, siempre hemos visitado su país. Todavía recuerdo muy bien el impacto que tuvo en mi mente cuando por primera vez fui consciente de la condición en que viven muchas personas de bajos recursos. Esta situación es consecuencia de la carencia de educación y oportunidades, y lo más triste fue darme cuenta de que, sin importar cuánto se esfuercen día a día, su situación no mejora significativamente, ya sea por circunstancias sociales o por la ineficiencia del gobierno. El grado de pobreza es tal que ni siquiera pueden cubrir sus necesidades básicas ni las de sus hijos, así que ante este panorama la posibilidad de educación es mínima o casi nula.",
+      "Mis padres siempre me han inculcado valores como la caridad y la compasión. Me han enseñado que debemos ponernos en el lugar de los demás y especialmente en el de los menos favorecidos, lo cual al principio me resultaba ajeno, ya que nací y crecí en medio de una vida privilegiada, en un país donde las cosas son diferentes, lleno de oportunidades, donde puedes llegar muy lejos si te lo propones. Al observar esta situación me di cuenta de que tenía que hacer algo para tratar de ayudar a estas personas desfavorecidas, así que con el apoyo de mis padres, cada vez que vamos a Colombia realizamos obras de caridad en los sectores menos privilegiados: llevando comida y ropa, brindándoles un poco de ayuda y esperanza en su mundo tan difícil, para que sientan que a alguien le importan sus vidas.",
+      "Durante la época de Navidad llevamos juguetes a los niños de estas familias y puedo decir que nunca había experimentado una sensación de alegría tan grande como cuando vi por primera vez las caras de felicidad de esos niños cuando recibían su juguete. Para ellos no importaba lo grande o costoso que fuera, porque habían aprendido a valorar cada cosa y a ser agradecidos, y no como nosotros, que hemos sido privilegiados y damos todo por merecido.",
+      "Recientemente también tuve la oportunidad de impulsar una campaña en varios edificios para la recolección y entrega de ayuda para Venezuela y Colombia, que sufrieron dos terremotos de gran magnitud. Lamentablemente muchas personas fallecieron y las que sobrevivieron, además de perder a sus familiares, quedaron en una situación de vulnerabilidad, quedando sin nada.",
+      "También me impactó mucho el sufrimiento de los animales porque en el país de mis padres, como en muchos otros, al no haber recursos para las personas, los animales pasan a un segundo plano o simplemente no existe la educación del respeto por ellos, que son también seres vivos que sienten y sufren. Hay personas que creen que los animales les pertenecen y que pueden hacer con ellos lo que quieran, incluyendo maltratarlos o simplemente desecharlos como basura en las calles, donde el sufrimiento de estos animales es inimaginable: padecen hambre, frío y, lo peor, la indiferencia del ser humano ante su situación de vulnerabilidad.",
+      "Vengo de una familia donde los animales son importantes y merecen respeto. Mi primer contacto con los animales fue cuando vivíamos cerca de la playa y con mi madre nos íbamos por la noche a alimentar y darles agua a los gatos, lo cual les ayudaba mucho después de los días de calor. Posteriormente adoptamos dos gatos en el refugio de la ciudad y se han convertido en parte de nuestra familia. Lo que más me llamó la atención fue la estadística tan triste: el promedio de vida de un gato en una casa es de 12 a 21 años y en la calle, de 5 a 6 años.",
+      "Por esta razón ahora soy voluntaria, junto con otras 3 personas, para alimentar cada semana a 8 colonias de gatos callejeros en North Miami Beach. También hemos atrapado gatos para esterilizarlos y así evitar la reproducción descontrolada y acabar con este círculo de sufrimiento, donde los animales padecen hambre y enfermedades, son atropellados por los carros y, en algunos casos, maltratados por personas sin escrúpulos a las que no les importa hacerles daño.",
+      "Una experiencia muy linda fue la de ser voluntaria cuidando 2 gatos recién nacidos que no se pueden alimentar por sí solos. En los refugios de la ciudad no cuentan con el personal para alimentarlos cada 3 horas, así que no tienen otra opción que sacrificarlos. De esta manera pueden llegar a la edad en la que los pueden esterilizar y poner en adopción, y así salvar sus vidas. En Colombia hemos colaborado llevando alimento a un refugio en Armenia y haciendo donaciones.",
+      "Sé que lo que he hecho hasta el momento por las personas y los animales no es muy grande y no hace mucha diferencia. Pero, por un lado, me ha dado una felicidad inimaginable. ¡Espero algún día que mi fundación crezca y pueda ayudar a más personas y animales, cambiando vidas! Este mundo necesita más gente que se preocupe por los demás, no solo por sí misma.",
+      "Mi gran meta es poder ayudar a educar comunidades no solo en la parte académica sino también en la parte social, ya que la educación en todos los sentidos es la base del progreso."
+    ],
+    "quote": "Si todos ponemos un grano de arena, sin importar lo grande que este sea, podemos hacer una diferencia gigante en el mundo.",
+    "signOff": "¡Espero contar con su apoyo en las iniciativas de mi Fundación FAVHA!",
+    "author": "Mariana Isabel Zamudio"
   },
   "LandingCarousel": {
     "heading": "Nuestro trabajo en imágenes",

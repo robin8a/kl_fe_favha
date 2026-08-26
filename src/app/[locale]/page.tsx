@@ -5,8 +5,10 @@ import Footer from "@/components/landing/Footer";
 import Hero from "@/components/landing/Hero";
 import LandingCarousel from "@/components/landing/LandingCarousel";
 import MissionVision from "@/components/landing/MissionVision";
-import SiteHeader from "@/components/landing/SiteHeader";
 import OrganizationJsonLd from "@/components/landing/OrganizationJsonLd";
+import OurHistory from "@/components/landing/OurHistory";
+import SiteHeader from "@/components/landing/SiteHeader";
+import WhoWeAre from "@/components/landing/WhoWeAre";
 import { getSiteUrl } from "@/lib/site-url";
 import type { Metadata } from "next";
 import type { Locale } from "next-intl";
@@ -73,6 +75,8 @@ export default async function HomePage({
       <SiteHeader />
       <main id="main-content" tabIndex={-1}>
         <Hero />
+        <WhoWeAre />
+        <OurHistory />
         <LandingCarousel />
         <MissionVision />
         <ActionLines />

@@ -6,6 +6,7 @@ import LocaleSwitcher from "./LocaleSwitcher";
 export default async function SiteHeader() {
   const t = await getTranslations("SiteHeader");
   const links = [
+    { href: "#who-we-are", label: t("navWhoWeAre") },
     { href: "#mission", label: t("navMission") },
     { href: "#programs", label: t("navPrograms") },
     { href: "#alliances", label: t("navAlliances") },
@@ -30,7 +31,7 @@ export default async function SiteHeader() {
         </Link>
 
         <nav
-          className="hidden items-center gap-5 text-sm font-medium text-earth-800 md:flex"
+          className="hidden items-center gap-4 text-sm font-medium text-earth-800 lg:flex xl:gap-5"
           aria-label="Primary"
         >
           {links.map(({ href, label }) => (
@@ -45,7 +46,7 @@ export default async function SiteHeader() {
         </nav>
 
         <div className="flex shrink-0 items-center gap-2">
-          <details className="relative md:hidden">
+          <details className="relative lg:hidden">
             <summary className="cursor-pointer list-none rounded-lg border border-earth-200 bg-white px-3 py-2 text-sm font-medium text-earth-800 shadow-sm [&::-webkit-details-marker]:hidden">
               {t("openMenu")}
             </summary>
