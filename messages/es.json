@@ -73,7 +73,14 @@
     "heading": "Nuestro trabajo en imágenes",
     "prev": "Anterior",
     "next": "Siguiente",
-    "goTo": "Ir a la diapositiva"
+    "goTo": "Ir a la diapositiva",
+    "filtersLabel": "Filtrar imágenes por tipo de ayuda",
+    "filterAll": "Todas",
+    "filterPeople": "Ayuda a las personas",
+    "filterAnimals": "Ayuda a los animales",
+    "filterCatastrophes": "Ayuda en catástrofes",
+    "slideCount": "{n} de {total}",
+    "slideAlt": "{category}, foto {n} de {total}"
   },
   "MissionVision": {
     "missionTitle": "Misión",

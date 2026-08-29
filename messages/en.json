@@ -73,7 +73,14 @@
     "heading": "Our work in pictures",
     "prev": "Previous",
     "next": "Next",
-    "goTo": "Go to slide"
+    "goTo": "Go to slide",
+    "filtersLabel": "Filter images by type of aid",
+    "filterAll": "All",
+    "filterPeople": "Help for people",
+    "filterAnimals": "Help for animals",
+    "filterCatastrophes": "Disaster relief",
+    "slideCount": "{n} of {total}",
+    "slideAlt": "{category}, photo {n} of {total}"
   },
   "MissionVision": {
     "missionTitle": "Mission",
