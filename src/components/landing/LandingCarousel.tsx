@@ -140,12 +140,13 @@ function CarouselViewport({ images }: { images: readonly CarouselImage[] }) {
                   key={image.src}
                   className="relative min-w-0 shrink-0 grow-0 basis-full"
                 >
-                  <div className="relative aspect-[16/10] w-full sm:aspect-[21/9]">
+                  <div className="relative h-[min(80svh,46rem)] w-full bg-earth-100">
                     <Image
                       src={image.src}
                       alt={slideAlt(image, index)}
                       fill
-                      className="object-cover"
+                      className="object-contain object-center"
+                      style={{ objectFit: "contain" }}
                       sizes="(max-width: 768px) 100vw, 1152px"
                       priority={index === 0}
                     />

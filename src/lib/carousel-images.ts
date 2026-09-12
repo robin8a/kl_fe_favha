@@ -20,8 +20,8 @@ export type CarouselImage = {
 
 const COUNTS = {
   people: 23,
-  animals: 13,
-  catastrophes: 19,
+  animals: 14,
+  catastrophes: 18,
 } as const;
 
 function imagesFor(
@@ -51,7 +51,7 @@ export const CAROUSEL_IMAGES_BY_CATEGORY: Record<
       4,
       "catastrophes",
       "hintColombiaQuindioTebaida",
-      20,
+      19,
     ),
   ],
 };
