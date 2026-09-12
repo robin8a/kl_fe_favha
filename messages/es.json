@@ -80,7 +80,9 @@
     "filterAnimals": "Ayuda a los animales",
     "filterCatastrophes": "Ayuda en catástrofes",
     "slideCount": "{n} de {total}",
-    "slideAlt": "{category}, foto {n} de {total}"
+    "slideAlt": "{category}, foto {n} de {total}",
+    "slideAltWithHint": "{category}, {hint}, foto {n} de {total}",
+    "hintColombiaQuindioTebaida": "Colombia, Quindío Tebaida"
   },
   "MissionVision": {
     "missionTitle": "Misión",

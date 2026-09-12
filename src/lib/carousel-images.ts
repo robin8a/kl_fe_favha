@@ -10,9 +10,12 @@ export const CAROUSEL_FILTERS = ["all", ...CAROUSEL_CATEGORIES] as const;
 
 export type CarouselFilter = (typeof CAROUSEL_FILTERS)[number];
 
+export type CarouselHintKey = "hintColombiaQuindioTebaida";
+
 export type CarouselImage = {
   src: string;
   category: CarouselCategory;
+  hintKey?: CarouselHintKey;
 };
 
 const COUNTS = {
@@ -25,10 +28,13 @@ function imagesFor(
   folder: string,
   count: number,
   category: CarouselCategory,
+  hintKey?: CarouselHintKey,
+  start = 1,
 ): readonly CarouselImage[] {
   return Array.from({ length: count }, (_, i) => ({
-    src: `/${folder}/image_${String(i + 1).padStart(3, "0")}.jpg`,
+    src: `/${folder}/image_${String(start + i).padStart(3, "0")}.jpg`,
     category,
+    ...(hintKey ? { hintKey } : {}),
   }));
 }
 
@@ -38,7 +44,16 @@ export const CAROUSEL_IMAGES_BY_CATEGORY: Record<
 > = {
   people: imagesFor("_people", COUNTS.people, "people"),
   animals: imagesFor("_animals", COUNTS.animals, "animals"),
-  catastrophes: imagesFor("_catastrophes", COUNTS.catastrophes, "catastrophes"),
+  catastrophes: [
+    ...imagesFor("_catastrophes", COUNTS.catastrophes, "catastrophes"),
+    ...imagesFor(
+      "_catastrophes",
+      4,
+      "catastrophes",
+      "hintColombiaQuindioTebaida",
+      20,
+    ),
+  ],
 };
 
 export const CAROUSEL_IMAGES: readonly CarouselImage[] = [

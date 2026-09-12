@@ -5,6 +5,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import {
   ChevronLeft,
   ChevronRight,
+  MapPin,
   Package,
   PawPrint,
   Users,
@@ -111,6 +112,23 @@ function CarouselViewport({ images }: { images: readonly CarouselImage[] }) {
   const categoryLabel = (category: CarouselImage["category"]) =>
     t(FILTER_LABEL_KEYS[category]);
 
+  const slideAlt = (image: CarouselImage, index: number) => {
+    const category = categoryLabel(image.category);
+    if (image.hintKey) {
+      return t("slideAltWithHint", {
+        category,
+        hint: t(image.hintKey),
+        n: index + 1,
+        total: images.length,
+      });
+    }
+    return t("slideAlt", {
+      category,
+      n: index + 1,
+      total: images.length,
+    });
+  };
+
   return (
     <>
       <div className="relative">
@@ -125,16 +143,18 @@ function CarouselViewport({ images }: { images: readonly CarouselImage[] }) {
                   <div className="relative aspect-[16/10] w-full sm:aspect-[21/9]">
                     <Image
                       src={image.src}
-                      alt={t("slideAlt", {
-                        category: categoryLabel(image.category),
-                        n: index + 1,
-                        total: images.length,
-                      })}
+                      alt={slideAlt(image, index)}
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 100vw, 1152px"
                       priority={index === 0}
                     />
+                    {image.hintKey ? (
+                      <span className="absolute bottom-3 left-3 z-10 inline-flex max-w-[min(100%-1.5rem,20rem)] items-center gap-1.5 rounded-full border border-white/25 bg-human-800/75 px-3 py-1 text-xs font-medium text-white shadow-sm backdrop-blur-sm sm:bottom-4 sm:left-4 sm:text-sm">
+                        <MapPin className="h-3.5 w-3.5 shrink-0" aria-hidden />
+                        {t(image.hintKey)}
+                      </span>
+                    ) : null}
                   </div>
                 </div>
               ))}
