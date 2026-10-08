@@ -82,7 +82,8 @@
     "slideCount": "{n} de {total}",
     "slideAlt": "{category}, foto {n} de {total}",
     "slideAltWithHint": "{category}, {hint}, foto {n} de {total}",
-    "hintColombiaQuindioTebaida": "Colombia, Quindío Tebaida"
+    "hintColombiaQuindioTebaida": "Colombia, Quindío Tebaida",
+    "hintMiamiFlorida": "Miami, Florida"
   },
   "MissionVision": {
     "missionTitle": "Misión",

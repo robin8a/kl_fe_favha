@@ -10,7 +10,9 @@ export const CAROUSEL_FILTERS = ["all", ...CAROUSEL_CATEGORIES] as const;
 
 export type CarouselFilter = (typeof CAROUSEL_FILTERS)[number];
 
-export type CarouselHintKey = "hintColombiaQuindioTebaida";
+export type CarouselHintKey =
+  | "hintColombiaQuindioTebaida"
+  | "hintMiamiFlorida";
 
 export type CarouselImage = {
   src: string;
@@ -43,7 +45,10 @@ export const CAROUSEL_IMAGES_BY_CATEGORY: Record<
   readonly CarouselImage[]
 > = {
   people: imagesFor("_people", COUNTS.people, "people"),
-  animals: imagesFor("_animals", COUNTS.animals, "animals"),
+  animals: [
+    ...imagesFor("_animals", COUNTS.animals, "animals"),
+    ...imagesFor("_animals", 2, "animals", "hintMiamiFlorida", 15),
+  ],
   catastrophes: [
     ...imagesFor("_catastrophes", COUNTS.catastrophes, "catastrophes"),
     ...imagesFor(
